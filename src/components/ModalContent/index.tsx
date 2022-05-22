@@ -42,7 +42,7 @@ const ModalContent = () => {
         {renderCheckoutModules()}
         <div>
           <hr className={classes.hr} />
-          <span className={classes.total}>Total</span>
+          <span className={classes.total}>Total Premium</span>
         </div>
         <div>
           <hr className={classes.hr} />

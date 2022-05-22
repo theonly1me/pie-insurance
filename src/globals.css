@@ -58,3 +58,21 @@
 	margin-bottom: 2rem;
 	font-size: 1.6rem;
 }
+
+@media (max-width: 651px) {
+   :global(.mediaGrid) {
+	   display: flex;
+	   align-items: center;
+	   justify-content: center;
+	   flex-direction: column;
+   }
+}
+
+@media (max-width: 821px) {
+	:global(.mediaGridCard) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+ }

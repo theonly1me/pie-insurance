@@ -36,3 +36,14 @@ margin-bottom: 4.8rem;
     margin-bottom: 1.6rem;
 }
 
+@media (max-width: 651px) {
+    .heroImgBox {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

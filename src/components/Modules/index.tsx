@@ -43,7 +43,9 @@ const Modules = () => {
         subheading="Browse through our offerings"
         heading="Modules"
       />
-      <div className={`container grid gridCol2`}>{renderCard()}</div>
+      <div className={`container grid gridCol2 mediaGrid mediaGridCard`}>
+        {renderCard()}
+      </div>
     </section>
   );
 };

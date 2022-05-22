@@ -15,7 +15,7 @@ const Step: React.FC<StepProps> = ({
   altText,
 }) => {
   return (
-    <div className="container grid gridCol2 gridCenterVertical">
+    <div className="container grid gridCol2 gridCenterVertical mediaGrid">
       <div
         className={classes.step}
         style={type === 'reverse' ? { order: 1 } : { order: 0 }}
