@@ -10,7 +10,7 @@ import AnchorButton from '../reusable/AnchorButton';
  */
 const Hero = () => {
   return (
-    <section className={classes.heroContainer}>
+    <section data-testid="hero" className={classes.heroContainer}>
       <div className={classes.hero}>
         <div className={classes.heroTextBox}>
           <h1 className={classes.headingPrimary}>

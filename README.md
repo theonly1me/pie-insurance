@@ -33,7 +33,7 @@ The user should be able to select the coverage for each module and see the calcu
 - Context API for Global State Management.
 - React Portals for Cart & Checkout component modal.
 - CSS Grid, Flexbox with CSS Modules for custom styling every layout, component.
-- Cypress for tests.
+- Jest w/ React Testing Library for tests.
 - React Select from dropdowns.
 - React Toastify for toast messages.
 
@@ -49,7 +49,6 @@ The user should be able to select the coverage for each module and see the calcu
 - TypeScript with React makes development a lot easier by eliminating the need for having to worry about runtime errors like undefined values, type safety.
 - Since this App is scaling vertically for the most part, and due to the scale of the application, Context API seemed like the best choice instead of using Redux Toolkit or a similar external store.
 - Writing custom CSS instead of using a UI Component Library allows me to demonstrate my skill in terms of UI Design, Layouts and overall knowledge of UX design and styling.
-- Tests can be written quicker using Cypress and it's UI capabilities allow convenient end-to-end testing.
 
 > All assets used in this project are stock / free-to-use from https://drawkit.com by James Daly
 

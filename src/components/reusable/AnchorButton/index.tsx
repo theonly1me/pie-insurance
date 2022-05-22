@@ -14,6 +14,7 @@ const AnchorButton: React.FC<AnchorButtonProps> = ({
 }) => {
   return (
     <a
+      role="button"
       href={href}
       className={`${classes.btn} ${
         type === 'full' ? classes.btnFull : classes.btnOutline

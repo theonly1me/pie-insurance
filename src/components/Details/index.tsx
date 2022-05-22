@@ -14,7 +14,7 @@ import SectionHeading from '../reusable/SectionHeading/SectionHeading';
  */
 const Details = () => {
   return (
-    <section id="details" className={classes.details}>
+    <section id="details" data-testid="details" className={classes.details}>
       <SectionHeading
         subheading="Our simple 3 step process"
         heading="Get your cover today"

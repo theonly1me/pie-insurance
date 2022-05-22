@@ -31,9 +31,10 @@ const Nav = () => {
 
   return (
     <>
-      <nav className={classes.mainNav}>
+      <nav className={classes.mainNav} role="navigation">
         <ul className={classes.mainNavList}>
           <li
+            data-testid="listbutton"
             className={classes.mainNavItem}
             onClick={isCartEmpty ? emptyCartNotification : onOpenHandler}
           >
@@ -45,6 +46,7 @@ const Nav = () => {
           </li>
         </ul>
         <ToastContainer
+          data-testid="toast"
           autoClose={2000}
           pauseOnHover={false}
           pauseOnFocusLoss={false}

@@ -16,9 +16,10 @@ const Header = () => {
     <>
       <header
         id="header"
+        data-testid="header"
         className={`${classes.header} ${sticky ? classes.sticky : ''}`}
       >
-        <div className={classes.logoContainer}>
+        <div data-testid="logo" className={classes.logoContainer}>
           <img src={logo} className={classes.logo} alt="logo" />
           <span className={classes.logoText}>Pie Insurance</span>
         </div>
