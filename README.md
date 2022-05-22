@@ -5,7 +5,7 @@
 #### How to Setup & Run
 
 1. `npm install` on the root of the project.
-2. `npm start` to run project.
+2. `npm start` to run project in development. The app will be available on http://localhost:3000
 3. `npm test` to run tests.
 
 ##### How to Use
