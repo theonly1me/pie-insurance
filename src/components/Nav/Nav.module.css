@@ -1,0 +1,31 @@
+
+.mainNav {
+
+}
+
+.mainNavList {
+    list-style: none;
+}
+
+.mainNavItem {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 20rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.mainNavItem:hover, .mainNavItem:focus{
+    box-shadow: inset 0 0 0 2px var(--primary-main);
+    transform: translateY(-2px);
+}
+
+
+.mainNavItem:active {
+    transform: translateY(1px);
+
+}
+
+.cartImg {
+    min-height: 3rem;
+}

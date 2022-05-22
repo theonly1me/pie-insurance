@@ -1,0 +1,28 @@
+
+.btn:link, .btn:visited {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    transition: all .2s;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btnFull:link, .btnFull:visited {
+    background-color: var(--primary-main);
+}
+
+.btnFull:hover, .btnFull:active {
+    background-color: var(--primary-dark);
+}
+
+.btnOutline:link, .btnOutline:visited {
+    background-color: #fff;
+    color: var(--grey-dark-2);
+}
+
+.btnOutline:hover, .btnOutline:active {
+    box-shadow: inset 0 0 0 2px var(--primary-main);
+}

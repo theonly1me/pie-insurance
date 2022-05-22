@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Pie Insurance - Modular Insurance Product
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This application was built as a part of Element Insurance AG's Frontend Coding Challenge.
 
-## Available Scripts
+#### How to Setup & Run
 
-In the project directory, you can run:
+1. `npm install` on the root of the project.
+2. `npm start` to run project.
+3. `npm test` to run tests.
 
-### `npm start`
+##### How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Once on the header/hero sections of the website, click on `View Modules` button.
+2. Select Coverage for modules from the dropdown.
+3. Add one or more modules to cart.
+4. Once at least one module has been added, click on the `CART` button on the sticky header to open the `Cart Summary` to view the individual modules selected and the total price.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Requirement
 
-### `npm test`
+Imagine a modular insurance product. People can choose from four modules. Each module has a different selectable coverage and a different mathematical risk.
+These are the modules:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Bike (Coverage 0-3k, Risk 30%)
+- Jewelry (Coverage 500-10k, Risk 5%)
+- Electronics (Coverage 500-6k, Risk 35%)
+- Sports Equipment (Coverage 0-20k, Risk 30%)
 
-### `npm run build`
+The user should be able to select the coverage for each module and see the calculated price. The price of the tariff, which is the individual configuration for each customer, should be calculated based on the risk: [price] = [coverage]\*[risk].
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Technology Stack Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Create React App w/ Template TypeScript.
+- Context API for Global State Management.
+- React Portals for Cart & Checkout component modal.
+- CSS Grid, Flexbox with CSS Modules for custom styling every layout, component.
+- Cypress for tests.
+- React Select from dropdowns.
+- React Toastify for toast messages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### UX Design Choice
 
-### `npm run eject`
+- Drafted rough UX in about 30 minutes.
+- Designed a color, spacing schema (implementation can be found in the ./src/globals.css).
+- Using CSS Grid for all primary layouts (all sections, checkout etc.).
+- CSS Flexbox for minor adjustments.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##### Reasoning behind choice of technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- TypeScript with React makes development a lot easier by eliminating the need for having to worry about runtime errors like undefined values, type safety.
+- Since this App is scaling vertically for the most part, and due to the scale of the application, Context API seemed like the best choice instead of using Redux Toolkit or a similar external store.
+- Writing custom CSS instead of using a UI Component Library allows me to demonstrate my skill in terms of UI Design, Layouts and overall knowledge of UX design and styling.
+- Tests can be written quicker using Cypress and it's UI capabilities allow convenient end-to-end testing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> All assets used in this project are stock / free-to-use from https://drawkit.com by James Daly
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Developed by Atchyut Preetham Pulavarthi
+> https://atchyut.dev

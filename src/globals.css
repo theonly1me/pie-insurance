@@ -1,0 +1,60 @@
+/*Global Variables*/
+:root {
+	/* COLORS*/
+	/* Primiary Colors */
+	--primary-main: #f69387;
+	--primary-light: #FADCD9;
+	--primary-extra-light:#F9F1F0;
+	--primary-dark: #f37667;
+
+	/* Lighter Greys */
+	--grey-light-1: #faf9f9;
+	--grey-light-2: #f4f2f2;
+	--grey-light-3: #f0eeee;
+	--grey-light-4: #ccc;
+
+	/* Darker Greys */
+	--grey-dark-1: #333;
+	--grey-dark-2: #555;
+	--grey-dark-3: #777;
+	--grey-dark-4: #999;
+
+	/* Shadows */
+	--shadow-dark: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+
+	/*Spacing levels in px*/
+	/*2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128*/
+}
+
+
+/*Reusable Global Classes*/
+:global(.container) {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 3.2rem;
+}
+
+:global(.grid) {
+	display: grid;
+	row-gap: 9.6rem;	
+	column-gap: 6.4rem;	
+}
+
+:global(.gridCenterVertical) {
+	align-items: center;
+}
+	
+:global(.gridCol2) {
+	grid-template-columns: repeat(2, 1fr);
+}
+	
+:global(.gridCol3) {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/*React Select - since it doesn't work CSS modules*/
+.customSelect {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: 1.6rem;
+}

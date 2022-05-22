@@ -1,0 +1,56 @@
+@import '../../globals.css';
+
+.footer {
+    padding: 9.6rem 0;
+    background-color: var(--primary-extra-light);
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    display: block;
+    margin-bottom: 3.2rem;
+    max-height: 6rem;
+}
+
+.copy {
+    font-size: 1.4rem;
+    color: #767676;
+    text-align: center;
+}
+
+.footerHeading {
+ font-size: 1.8rem;
+ font-weight: 500;
+ margin-bottom: 3.2rem;
+}
+
+.contacts {
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.address{
+    margin-bottom: 2.4rem;
+}
+
+.footerLink:visited, .footerLink:link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all .3s;
+}
+
+.footerLink:hover,
+.footerLink:active {
+ color: var(--grey-dark-2);
+}

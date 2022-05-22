@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Bikes",
+    "range": [500, 1000, 2000, 3000],
+    "coverage": "0 € - 3000 €",
+    "attributes": [
+      "Theft Coverage",
+      "Accident & Vandalism Coverage",
+      "Total Loss Coverage",
+      "Material Damage Protection"
+    ],
+    "img": "bike",
+    "risk": 0.3
+  },
+  {
+    "id": 2,
+    "title": "Jewelry",
+    "range": [500, 2500, 5000, 7500, 10000],
+    "coverage": "500 € - 10000 €",
+    "attributes": [
+      "Theft Coverage",
+      "Water, Fire or Lightning Damage",
+      "Vandalism",
+      "Corrosion"
+    ],
+    "img": "jewelry",
+    "risk": 0.05
+  },
+  {
+    "id": 3,
+    "title": "Sports Equipment",
+    "range": [500, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000],
+    "coverage": "0 € - 20000 €",
+    "attributes": [
+      "Emergency Medical Expenses",
+      "Repatriation",
+      "Equipment Damage",
+      "Theft Coverage"
+    ],
+    "img": "sports",
+    "risk": 0.3
+  },
+  {
+    "id": 4,
+    "title": "Electronics",
+    "range": [500, 1200, 2400, 3600, 4800, 6000],
+    "coverage": "500 € - 6000 €",
+    "attributes": [
+      "Fall Damage",
+      "Water, Fire or Explosion Damage",
+      "Theft Coverage",
+      "Total Loss Coverage"
+    ],
+    "img": "electronics",
+    "risk": 0.35
+  }
+]
